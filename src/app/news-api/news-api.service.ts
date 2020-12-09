@@ -22,7 +22,7 @@ interface NewsApiResponse {
 export class NewsApiService {
   private url = 'https://newsapi.org/v2/top-headlines';
   private pageSize = 10;
-  private apiKey = 'd877840d893644b0a7ac25606540101a';
+  private apiKey = '';
   private country = 'ru';
 
   private pagesInput: Subject<number>;
